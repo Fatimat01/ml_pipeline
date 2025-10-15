@@ -1,0 +1,39 @@
+# Exact versions from working .venv for Python 3.12
+
+
+# Web framework and server
+fastapi
+uvicorn[standard]
+
+# Data validation
+pydantic
+
+# Testing
+pytest
+pytest-asyncio
+
+# HTTP clients
+httpx
+requests
+
+# Data science libraries
+
+matplotlib
+seaborn
+
+# Jupyter support
+jupyter
+ipykernel
+nbformat
+
+# ML fairness and visualization
+aequitas
+altair
+
+# Flask and extensions (for aequitas)
+Flask
+Flask-Bootstrap
+
+# Other utilities
+python-multipart
+httplib2
