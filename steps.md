@@ -1,0 +1,18 @@
+- create s3 for remote dvc
+    - aws s3 mb s3://census-classifier-dvc
+- dvc init
+    - creates .dvc/ and .dvcignore
+- commit dvc initialization to git
+    - git add .dvc .dvcignore
+    - git commit -m "dvc initialized"
+- Configure DVC Remote to Use S3
+    - dvc remote add -d s3remote s3://census-classifier-dvc/
+- commit dvc config
+    - git add .dvc/config
+    - git commit -m "configure DVC remote storage on S3"
+- Track Census Data with DVC and add to gitignore
+    - dvc add data/census.csv
+    - git add data/census.csv.dvc data/.gitignore
+    - git commit -m "add census data with DVC tracking"
+    - dvc push
+    
