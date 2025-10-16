@@ -37,3 +37,17 @@ Flask-Bootstrap
 # Other utilities
 python-multipart
 httplib2
+
+# Data science libraries
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+
+# Jupyter support
+jupyter
+ipykernel
+nbformat
+
+flake8
