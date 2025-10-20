@@ -110,13 +110,13 @@ dmypy.json
 
 # Machine Learning / Data Science specific
 # Models
-*.pkl
+
 *.joblib
 *.h5
 *.hdf5
 *.model
 *.weights
-
+!model/*.csv  # Keep the metrics csv files
 # Data files (but keep small sample data)
 *.csv
 !starter/data/census.csv  # Keep the census dataset
@@ -176,7 +176,6 @@ temp/
 tmp/
 
 # Screenshots (unless specifically needed)
-screenshots/*.png
 screenshots/*.jpg
 screenshots/*.jpeg
 !screenshots/.gitkeep
