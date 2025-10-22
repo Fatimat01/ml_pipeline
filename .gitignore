@@ -116,9 +116,11 @@ dmypy.json
 *.hdf5
 *.model
 *.weights
-!model/*.csv  # Keep the metrics csv files
+!model/*csv  # Keep the metrics csv files
 # Data files (but keep small sample data)
-*.csv
+data/*.csv
+
+
 !starter/data/census.csv  # Keep the census dataset
 
 # Large data directories
