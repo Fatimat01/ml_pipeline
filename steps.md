@@ -17,5 +17,9 @@
     - dvc push
     
 - Set up Heroku git remote
+    - create "Aptfile" in root dir with content `https://github.com/iterative/dvc/releases/download/2.0.18/dvc_2.0.18_amd64.deb`
+    - create "Proctfile" in root dir with content >> check file
+    - heroku buildpacks:add --index 1 heroku-community/apt -a census-income-classifier
+    - heroku buildpacks:add heroku/python -a census-income-classifier
     - heroku git:remote -a census-income-classifier
     - git push heroku main
