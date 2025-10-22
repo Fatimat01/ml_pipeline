@@ -1,11 +1,11 @@
 """
 Script to POST to live Heroku API.
-Replace YOUR_HEROKU_APP_URL with your actual app URL.
 """
+
 import requests
 
-# Replace with your Heroku app URL
-API_URL = "YOUR_HEROKU_APP_URL"  # e.g., "https://your-app.herokuapp.com"
+# heroku app URL
+API_URL = "https://census-income-classifier-688c084c733a.herokuapp.com/"  
 
 # Test data
 data = {
