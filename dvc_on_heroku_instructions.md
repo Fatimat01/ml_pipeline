@@ -3,7 +3,7 @@ We need to give Heroku the ability to pull in data from DVC upon app start up. W
 `heroku buildpacks:add --index 1 heroku-community/apt`
 
 Then in your root project folder create a file called `Aptfile` that specifies the release of DVC you want installed, e.g.
-https://github.com/iterative/dvc/releases/download/2.0.18/dvc_2.0.18_amd64.deb
+https://github.com/iterative/dvc/releases/download/3.63.0/dvc_3.63.0_amd64.deb
  
 Add the following code block to your main.py:
 
