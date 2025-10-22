@@ -16,3 +16,6 @@
     - git commit -m "add census data with DVC tracking"
     - dvc push
     
+- Set up Heroku git remote
+    - heroku git:remote -a census-income-classifier
+    - git push heroku main
